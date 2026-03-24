@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "18.17.1",
+  "outputDirectory": ".next",
+  "public": true,
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SITE_URL",
+      "value": "@will-dtf-production"
+    }
+  ]
+}
